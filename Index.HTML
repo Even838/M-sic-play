@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="pt-br"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e.p music</title>
+    <link rel="stylesheet" href="style.css">
+<body>
+
+<div id="music-container">
+      
+<h2>e.p music</h2> 
+  
+  <input type="file" id="musicInput" accept=".mp3" style="display: none;"><button id="addMusicBtn" onclick="document.getElementById('musicInput').click()">Adicionar Música</button>
+        
+<div id="musicList"></div>
+   
+</div> <audio id="audioPlayer" controls></audio> <canvas id="cover-canvas" ></canvas>
+ 
+  <script src="main.js"></script>
